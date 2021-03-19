@@ -45,9 +45,8 @@ function renderTrainer(trainer){
         button.setAttribute("data-pokemon-id", pokemon.id)
         button.innerHTML = "Release"
         li.innerHTML =  `${pokemon.nickname} (${pokemon.species})`
-        ul.appendChild(li)
         li.appendChild(button)
-    
+        ul.appendChild(li)
     }
 
     
