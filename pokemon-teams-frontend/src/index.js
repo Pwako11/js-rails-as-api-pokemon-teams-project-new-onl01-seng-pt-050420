@@ -79,8 +79,6 @@ function renderTrainer(trainer){
     }
 }
     
-
-
 function deletePokemon(e) {
     e.preventDefault()
     
